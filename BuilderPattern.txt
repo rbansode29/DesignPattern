@@ -1,0 +1,12 @@
+/*
+The Builder is a design pattern designed to provide a flexible solution to various object creation problems in object-oriented programming.
+The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
+It is one of the Gang of Four design patterns.
+
+
+for our example we are using below classes : 
+Class - Car.java -  this is model class containig the field wheel and color
+Class - CarBuilder.java - this is builder class having same field of car class with build method which return car class instance.
+Class - Client.java - main class showing how to call the the builder to construct car object.
+
+*/
